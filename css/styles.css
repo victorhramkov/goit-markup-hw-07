@@ -137,7 +137,7 @@ body {
   display: flex;
 }
 /* блок с адресами */
-.footer__logo {
+.footer-adress-block__logo {
   color: var(--logo-color);
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -148,27 +148,27 @@ body {
   margin-bottom: 20px;
   display: block;
 }
-.footer__logo__web {
+.footer-adress-block__web {
   color: var(--button-and-logo-color);
 }
-.footer__adress {
+.footer-adress {
   margin-top: 20px;
 }
-.footer__adress__unit {
+.footer-adress-list {
 }
-.footer__adress__unit__list {
+.footer-adress-list__item {
   list-style: none;
 }
-.footer__adress__unit__list:not(:last-child) {
+.footer-adress-list__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer__adress__unit__list__street {
+.footer-adress-list__street {
 }
-.footer__adress__unit__list__street__building {
+.footer-adress-list__building {
   color: var(--logo-color);
   text-decoration: none;
 }
-.footer-item {
+.footer-adress-list__contacts {
   text-decoration: none;
   color: var(--subtext-color);
 }
@@ -574,14 +574,14 @@ body {
   display: flex;
   align-items: baseline;
 }
-.footer-block2 {
+.footer-add-on {
   width: 206px;
   height: 80px;
 }
-.footer-block1 {
+.footer-adress-block {
   margin-right: 70px;
 }
-.social__text {
+.footer-add-on__text {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -590,18 +590,18 @@ body {
   color: var(--white-text-color);
   margin-bottom: 20px;
 }
-.social__unit-list {
+.footer-social-list {
   display: flex;
 }
-.subscribe__social__buttons {
+.footer-social-list__item {
   list-style: none;
   width: 44px;
   height: 44px;
 }
-.subscribe__social__buttons:not(:last-child) {
+.footer-social-list__item:not(:last-child) {
   margin-right: 10px;
 }
-.social-links {
+.footer-social-list__links {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -611,20 +611,17 @@ body {
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-links:hover,
-.social-links:focus {
+.footer-social-list__links:hover,
+.footer-social-list__links:focus {
   background-color: var(--button-and-logo-color);
 }
-.social-foto {
+.footer-social-list__foto {
   width: 20px;
   height: 20px;
   fill: #ffffff;
 }
-.subscription-email {
-  margin-left: 93px;
-}
 /* блок пожписки */
-.social-subscription__text {
+.subscription-block__text {
   font-weight: 700;
   font-size: 14px;
   line-height: 0.875;
@@ -633,10 +630,10 @@ body {
   color: #ffffff;
   margin-bottom: 20px;
 }
-.form-subscription-email {
+.subscription-block__email {
   display: flex;
 }
-.email-subscription {
+.subscription-block__email-subscription {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -647,7 +644,7 @@ body {
   outline: none;
   color: rgba(255, 255, 255, 0.3);
 }
-.subscription-button {
+.subscription-block__subscription-button {
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -663,7 +660,7 @@ body {
   align-items: center;
   text-align: center;
 }
-.icon-send-button {
+.subscription-block__icon-send-button {
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -833,31 +830,8 @@ body {
   pointer-events: none;
   fill: inherit;
 }
-.subscription-email {
+.subscription-block {
   margin-left: 93px;
-}
-.subscription-button {
-  width: 200px;
-  height: 50px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  margin-right: 12px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  align-items: center;
-  text-align: center;
-}
-.icon-send-button {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  fill: #fff;
-  transform: translate(20%, 20%);
 }
 .checkbox {
   position: absolute;
