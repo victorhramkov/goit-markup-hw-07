@@ -185,7 +185,7 @@ body {
   margin: 0 auto;
   background-repeat: no-repeat;
 }
-.slider__sentences {
+.baner__sentences {
   color: var(--white-text-color);
   margin-bottom: 20px;
   font-size: 44px;
@@ -195,7 +195,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.button__style {
+.baner__button-style {
   font-family: inherit; /* примусова наслідування шрифтів, навіть якщо елемент не може наслідувати з body*/
   width: 200px;
   height: 50px;
@@ -212,19 +212,19 @@ body {
 }
 /* блок з нашими приемущевствами */
 
-.fetures__unit__list {
+.fetures-list {
   display: flex;
   justify-content: space-between;
   list-style: none;
   align-items: center;
 }
-.fetures__unit__list__item {
+.fetures-list__item {
   width: 270px;
 }
-.fetures__unit__list__item:not(:last-child) {
+.fetures-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.fetures__unit__list__item__headline {
+.fetures-list__title {
   margin-bottom: 5px;
   font-weight: 700;
   font-size: 14px;
@@ -233,10 +233,20 @@ body {
   text-transform: uppercase;
   color: var(--black-color2);
 }
-.fetures__unit__list__item__text {
+.fetures-list__sub-title {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+.fetures-photo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  background: #f5f4fa;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 /* блок. чем мы занимаемся */
 .what-we-do {
@@ -508,22 +518,13 @@ body {
   margin-right: 5px;
   fill: currentColor;
 }
-.fetures-img {
+.fetures-photo__img {
   width: 70px;
   height: 70px;
   align-items: center;
   align-content: center;
 }
-.fetures__unit__list__info__item__photo {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 120px;
-  background: #f5f4fa;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
+
 /* секция наши клиенты */
 .our-clients {
 }
