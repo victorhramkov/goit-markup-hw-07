@@ -260,15 +260,15 @@ body {
   line-height: 42px;
   letter-spacing: 0.03em;
 }
-.what-we-do_unit-list {
+.what-we-do-list {
   display: flex;
   justify-content: space-between;
 }
-.what-we-do_unit-list-item {
+.what-we-do-list__item {
   list-style: none;
   position: relative;
 }
-.text-over-image {
+.what-we-do__text-over-image {
   position: absolute;
   bottom: 4px;
   left: 0;
@@ -287,7 +287,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
-.img-style {
+.what-we-do-list__img-style {
 }
 /* блок. наша команда */
 .our-team {
