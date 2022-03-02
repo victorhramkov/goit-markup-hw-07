@@ -48,12 +48,7 @@ body {
 .header-top-menu__pages--active:focus {
   color: var(--button-and-logo-color);
 }
-.nav-button:hover,
-.nav-button:focus {
-  background-color: var(--button-and-logo-color);
-  color: var(--background-color);
-  cursor: pointer;
-}
+
 
 .active {
   color: var(--button-and-logo-color);
@@ -377,7 +372,7 @@ body {
 }
 
 /* Начало стилей портфолио */
-.portfolio-nav__unit-list {
+.portfolio-nav-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,10 +381,10 @@ body {
 }
 
 /* кнопки портфоліо */
-.portfolio-nav__unit-list__list-item:not(:last-child) {
+.portfolio-nav-list__item:not(:last-child) {
   margin-right: 10px;
 }
-.nav-button {
+.portfolio-nav-list__nav-button {
   background-color: var(--background-color-second);
   padding: 6px 22px;
   border: none;
@@ -404,13 +399,19 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-button-active {
+.portfolio-nav-list__nav-button-active {
   color: white;
   padding: 6px 22px;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+}
+.portfolio-nav-list__nav-button:hover,
+.portfolio-nav-list__nav-button:focus {
+  background-color: var(--button-and-logo-color);
+  color: var(--background-color);
+  cursor: pointer;
 }
 .our-projects_unit-list {
   display: flex;
