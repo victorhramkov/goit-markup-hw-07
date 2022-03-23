@@ -1,0 +1,81 @@
+.baner__button-style {
+  font-family: inherit; /* примусова наслідування шрифтів, навіть якщо елемент не може наслідувати з body*/
+  width: 200px;
+  height: 50px;
+  background-color: var(--button-and-logo-color);
+  border: none; /* візуальне обгортання елемента лінією (наприклад кнопка без рамок) */
+  border-radius: 5px;
+  color: var(--background-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  cursor: pointer; /* курсор при наведенні стає рукою */
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); /* тінь кнопки */
+}
+.portfolio-nav-list__nav-button {
+  background-color: var(--background-color-second);
+  padding: 6px 22px;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--button-and-logo-color);
+    color: var(--background-color);
+    cursor: pointer;
+  }
+}
+.portfolio-nav-list__nav-button-active {
+  color: white;
+  padding: 6px 22px;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.subscription-block__subscription-button {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+}
+.subscription-block__icon-send-button {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  transform: translate(20%, 20%);
+}
+.button-submit {
+  padding: 10px 55px;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 0 auto;
+}
