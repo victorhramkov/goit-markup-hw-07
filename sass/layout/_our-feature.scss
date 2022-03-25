@@ -1,0 +1,28 @@
+.fetures-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+.fetures-list__item {
+  width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.fetures-photo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  background: #f5f4fa;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.fetures-photo__img {
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  align-content: center;
+}
